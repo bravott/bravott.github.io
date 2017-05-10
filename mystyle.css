@@ -1,0 +1,16 @@
+hr {color:sienna;}
+p {margin-left:20px;color:sienna;}
+body {background-image:url("/images/back40.gif");}
+#cent1{
+	text-align: center;
+}
+#aa{
+	width: 70px;
+	height: 100px;
+	font-family: Georgia,serif
+}
+td{
+	width: 500px;
+	height: 100px;
+	color: red;
+}
