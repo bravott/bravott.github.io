@@ -13,7 +13,10 @@ function timeElapse(c)
  f=f%60;
  if(f<10)
  {f="0"+f}
- var a='<span class="digit">'+g + e.getFullYear() + e.getMonth() + e.getDate() +'</span> days <span class="digit">'+b+'</span> hours <span class="digit">'+d+'</span> minutes <span class="digit">'+f+"</span> seconds";$("#elapseClock").html(a)}
+ var x = e.getFullYear()
+ var y = e.getMonth()
+ var z = e.getDate()
+ var a='<span class="digit">'+ x +'</span> days <span class="digit">'+y+'</span> hours <span class="digit">'+z+'</span> minutes <span class="digit">'+f+"</span> seconds";$("#elapseClock").html(a)}
 
 
 function showMessages(){$("#messages").fadeIn(5000,function(){showLoveU()})}function adjustWordsPosition(){$("#words").css("position","absolute");$("#words").css("top",$("#garden").position().top+195);$("#words").css("left",$("#garden").position().left+70)}function adjustCodePosition(){$("#code").css("margin-top",($("#garden").height()-$("#code").height())/2)}function showLoveU(){$("#loveu").fadeIn(3000)};
